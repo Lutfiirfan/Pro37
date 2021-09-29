@@ -43,7 +43,7 @@ class Quiz {
       var display_Answers = 230;
       fill("Blue");
       textSize(20);
-      text("*NOTE: Contestant who answered correct are highlighted in green color!",130,230);
+      text("*NOTE: Contestant who answered correct are highlighted in white color!",130,230);
 
       for(var plr in allContestants){
         debugger;
@@ -57,7 +57,7 @@ class Quiz {
        // }
 
         if (correctAns === allContestants[plr].answer){
-          fill("Green")
+          fill("white")
         }
        else{
           fill("red");
